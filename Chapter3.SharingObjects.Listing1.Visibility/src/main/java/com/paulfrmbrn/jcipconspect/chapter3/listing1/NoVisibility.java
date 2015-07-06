@@ -1,4 +1,4 @@
-package com.paulfrmbrn.jcipconspect.chapter3.page34;
+package com.paulfrmbrn.jcipconspect.chapter3.listing1;
 
 /**
  * BAD
@@ -14,10 +14,10 @@ public class NoVisibility {
     private static class ThreadRunner extends Thread {
         @Override
         public void run() {
-            while (!ready) { // can loop forever, because write in 27 is not synchronized
+            while (!ready) { // can loop forever, because write in 28 is not synchronized
                 Thread.yield();
             }
-            System.out.println("number = " + number); // can print 42, because write in 27 is not synchronized
+            System.out.println("number = " + number); // can print 42, because write in 29 is not synchronized
             // due to reordering
         }
     }

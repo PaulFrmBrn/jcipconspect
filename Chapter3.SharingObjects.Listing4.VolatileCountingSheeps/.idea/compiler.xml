@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="SharingObjectsNoVisibility" />
+        <module name="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SharingObjectsNoVisibility" target="1.5" />
+      <module name="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

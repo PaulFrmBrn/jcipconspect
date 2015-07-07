@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db97ff0c-2afa-4433-bfee-3baac3be2cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter4/listing41/figure1/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing3.ThreadSafeMustableInteger/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing3.ThreadSafeMustableInteger/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/.idea/workspace.xml" />
     </list>
     <ignored path="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,6 +87,11 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -411,6 +404,13 @@
       <option name="number" value="Default" />
       <updated>1436252031841</updated>
     </task>
+    <task id="LOCAL-00001" summary="Chapter 3 listing 3.1">
+      <created>1436253907831</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1436253907831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -444,6 +444,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Chapter 3 listing 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 listing 3.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

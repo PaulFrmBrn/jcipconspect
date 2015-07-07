@@ -2,7 +2,7 @@ package com.paulfrmbrn.jcipconspect.chapter3.listing4;
 
 /**
  *
- * Counting sheep
+ * typical use of volatile variable
  *
  * @author paulfrmbrn
  */
@@ -17,7 +17,7 @@ public class Main {
         new Thread(new Runnable() {
             public void run() {
                 int sheepCounter = 0;
-                while (!asleep) {
+                while (!asleep) { // typical use of volatile variable
                     countSomeSheep(++sheepCounter);
                 }
             }

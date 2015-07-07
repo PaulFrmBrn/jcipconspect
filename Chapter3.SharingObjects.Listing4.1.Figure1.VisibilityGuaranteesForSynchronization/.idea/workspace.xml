@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea09bbc4-2cd7-4b27-b963-76d4c03f6167" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java" />
+    <list default="true" id="db97ff0c-2afa-4433-bfee-3baac3be2cf6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter4/listing41/figure1/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing3.ThreadSafeMustableInteger/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing3.ThreadSafeMustableInteger/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing4.VolatileCountingSheeps/.idea/workspace.xml" />
     </list>
-    <ignored path="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps.iws" />
+    <ignored path="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +33,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+    <favorites_list name="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -38,13 +48,23 @@
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter4/listing41/figure1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1097561">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.62601626">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               <folding>
-                <element signature="e#341#591#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#383#683#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#723#1207#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1611#1612#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +90,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter4/listing41/figure1/Main.java" />
       </list>
     </option>
   </component>
@@ -80,20 +100,15 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="61" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1539" />
-    <option name="height" value="876" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -118,48 +133,51 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -173,11 +191,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+              <option name="myItemId" value="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -193,34 +211,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="listing4" />
+              <option name="myItemId" value="figure1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing3.ThreadSafeMustableInteger" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.paulfrmbrn.jcipconspect.chapter3.listing4.*" />
+          <option name="PATTERN" value="com.paulfrmbrn.jcipconspect.chapter4.listing41.figure1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.paulfrmbrn.jcipconspect.chapter3.listing4.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.paulfrmbrn.jcipconspect.chapter4.listing41.figure1.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -229,7 +243,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chapter3.SharingObjects.Listing4.VolatileCountingSheeps" />
+      <module name="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization" />
       <envs />
       <method />
     </configuration>
@@ -390,38 +404,28 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea09bbc4-2cd7-4b27-b963-76d4c03f6167" name="Default" comment="" />
-      <created>1436250938276</created>
+      <changelist id="db97ff0c-2afa-4433-bfee-3baac3be2cf6" name="Default" comment="" />
+      <created>1436252031841</created>
       <option name="number" value="Default" />
-      <updated>1436250938276</updated>
+      <updated>1436252031841</updated>
     </task>
-    <task id="LOCAL-00001" summary="Chapter 3 listing 2,3,4,">
-      <created>1436251544562</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1436251544562</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="24" width="1539" height="876" extended-state="6" />
+    <frame x="61" y="-4" width="1539" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.50234425" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.49765572" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24983256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -441,10 +445,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Chapter 3 listing 2,3,4," />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 listing 2,3,4," />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -462,91 +462,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing4/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter4/listing41/figure1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1097561">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.62601626">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding>
-            <element signature="e#341#591#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#383#683#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#723#1207#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Chapter3.SharingObjects.Listing4.VolatileCountingSheeps</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db97ff0c-2afa-4433-bfee-3baac3be2cf6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing5.PublishingAnObject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing5.PublishingAnObject/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing6/Main.java" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing6/Main.java" />
     </list>
     <ignored path="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization.iws" />
     <ignored path=".idea/workspace.xml" />

@@ -1,51 +1,47 @@
 package com.paulfrmbrn.jcipconspect.chapter4.listing41.figure1;
 
 /**
- *
  * Visibility guarantees for synchronization
+ *
+ * @see http://stackoverflow.com/questions/14714847/java-concurrent-visibility-of-primitive-array-writes
+ * for better examples and explanations
  *
  * @author paulfrmbrn
  */
 public class Main {
 
-    public static volatile boolean done = false;
+    volatile static boolean done = false;
 
     public static void main(String[] args) throws InterruptedException {
 
-        final SomeClass anObject = new SomeClass(0,0);
+        Holder y = new Holder(-1);
+        Holder x = new Holder(-2);
 
-        Thread threadA = new Thread(new Runnable() {
-            public void run() {
-                int i = 1;
-                while (!done) {
-                    anObject.setY(++i);
-                    synchronized (this) {
-                        anObject.setX(i + 10);
-                    }
-                }
-            }
+        Thread writer = new Thread(() -> {
+            y.set(1);
+            //synchronized (x) {
+                x.set(2);
+            //}
         });
 
-        Thread threadB = new Thread(new Runnable() {
-            public void run() {
-                int j = 0;
-                while (!done) {
-                    int localX;
-                    synchronized (this) {
-                        localX = anObject.getX();
-                    }
-                    int localY = anObject.getY();
+        Thread reader = new Thread(() -> {
+            int localX = -3;
+            int localY = -4;
 
-                    System.out.println("#" + ++j + " x = " + localX);
-                    System.out.println("#" + j + " y = " + localY);
-                }
+            while (!done) {
+
+                //synchronized (x) {
+                    localX = x.get();
+                //}
+                localY = y.get();
             }
+            System.out.println(" x = " + localX);
+            System.out.println(" y = " + localY);
         });
 
-        threadA.start();
-        threadB.start();
-
-        Thread.sleep(3);
+        reader.start();
+        writer.start();
+        Thread.sleep(1000);
         done = true;
 
 
@@ -53,28 +49,18 @@ public class Main {
 
 }
 
-class SomeClass {
-    public int y;
+class Holder {
     public int x;
 
-    public SomeClass(int y, int x) {
-        this.y = y;
+    public Holder(int x) {
         this.x = x;
     }
 
-    public int getY() {
-        return y;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-
-    public int getX() {
+    public int get() {
         return x;
     }
 
-    public void setX(int x) {
+    public void set(int x) {
         this.x = x;
     }
 }

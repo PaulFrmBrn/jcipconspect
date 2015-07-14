@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db97ff0c-2afa-4433-bfee-3baac3be2cf6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing6/Main.java" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing6/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/Chapter3.SharingObjects.Listing6.ObjectEscape.iml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/Chapter3.SharingObjects.Listing6.ObjectEscape.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing6.ObjectEscape/.idea/workspace.xml" />
     </list>
     <ignored path="Chapter3.SharingObjects.Listing4.1.Figure1.VisibilityGuaranteesForSynchronization.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.64171124">
-              <caret line="32" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="32" selection-end-column="12" />
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -665,7 +665,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64171124">
-          <caret line="32" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="32" selection-end-column="12" />
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding />
         </state>
       </provider>

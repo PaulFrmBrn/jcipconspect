@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Chapter3.SharingObjects.Listing6.ObjectEscape" target="1.5" />
+      <module name="Chapter3.SharingObjects.Listing6.ObjectEscape" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

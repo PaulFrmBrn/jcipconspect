@@ -3,14 +3,11 @@ package com.paulfrmbrn.jcipconspect.chapter4.listing41.figure1;
 /**
  * Visibility guarantees for synchronization
  *
+ * @author paulfrmbrn
  * @see http://stackoverflow.com/questions/14714847/java-concurrent-visibility-of-primitive-array-writes
  * for better examples and explanations
- *
- * @author paulfrmbrn
  */
 public class Main {
-
-    volatile static boolean done = false;
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -28,21 +25,34 @@ public class Main {
             int localX = -3;
             int localY = -4;
 
-            while (!done) {
+            int i = 0;
+            while (true) {
 
                 //synchronized (x) {
                     localX = x.get();
                 //}
                 localY = y.get();
+
+                System.out.println(" x[" + i + "] = " + localX);
+                System.out.println(" y[" + i + "] = " + localY);
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                if (++i >= 10) {
+                    break;
+                }
+
             }
-            System.out.println(" x = " + localX);
-            System.out.println(" y = " + localY);
+
         });
 
+
         reader.start();
+        Thread.sleep(3000);
         writer.start();
-        Thread.sleep(1000);
-        done = true;
 
 
     }
@@ -63,4 +73,6 @@ class Holder {
     public void set(int x) {
         this.x = x;
     }
+
 }
+

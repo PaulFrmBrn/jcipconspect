@@ -34,7 +34,13 @@ class ThisEscape { // enclosing object
 
                     }
                 }
-        );
+        ); // passing *this* reference of the ThisEscape to the EventSource BEFORE it was completely constructed
+        
+        someOtherConstruction();
+    }
+
+    private void someOtherConstruction() {
+        System.out.println("post construction");
     }
 
     private void doSomething(Event e) {

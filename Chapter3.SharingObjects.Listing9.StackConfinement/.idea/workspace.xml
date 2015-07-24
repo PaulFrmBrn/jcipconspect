@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f5a827c-d155-4364-8b80-58b021d1d71a" name="Default" comment="Chapte 3 Listing 9">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/paulfrmbrn/jcipconspect/chapter3/listing9/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter3.SharingObjects.Listing9.StackConfinement.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/paul.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="5f5a827c-d155-4364-8b80-58b021d1d71a" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing8.SafeListener/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing8.SafeListener/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing7.ImplicitEscape/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing7.ImplicitEscape/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing8.SafeListener/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chapter3.SharingObjects.Listing8.SafeListener/.idea/workspace.xml" />
     </list>
     <ignored path="Chapter3.SharingObjects.Listing9.StackConfinement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -367,6 +354,13 @@
       <option name="number" value="Default" />
       <updated>1437548460554</updated>
     </task>
+    <task id="LOCAL-00001" summary="Chapte 3 Listing 9 Thread Confinement of local primitive and reference variables">
+      <created>1437635056527</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1437635056527</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -400,6 +394,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Chapte 3 Listing 9 Thread Confinement of local primitive and reference variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapte 3 Listing 9 Thread Confinement of local primitive and reference variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

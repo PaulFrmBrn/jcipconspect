@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 
 /**
- * Immutable holder fpr caching a number and its factors
+ * Immutable holder for caching a number and its factors
  *
  * @author paul
  */
